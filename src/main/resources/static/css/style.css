@@ -15,7 +15,6 @@ html {
 
 
 .header {
-        /* background-color: var(--china-pink); */
         background-image: linear-gradient(pink, var(--china-pink));
         border-bottom: groove 3px;
 }
@@ -30,6 +29,28 @@ html {
 .header__list li {
     list-style: none;
 }
+
+
+.main {
+    background-image: repeating-linear-gradient(var(--glaucous), skyblue, var(--glaucous), skyblue, var(--glaucous), skyblue, var(--glaucous), skyblue);
+}
+
+
+
+.post {
+    border: solid black 15px;
+    background-color: red;
+    border-radius: 20%;
+}
+
+
+
+
+
+.footer {
+    background-image: radial-gradient(limegreen ,var(--granny-smith-apple));
+}
+
 
 @media (min-width: 500px) {
     .header__title {
