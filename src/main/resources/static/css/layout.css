@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.header__list {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
